@@ -290,8 +290,8 @@ button:active {
 .contact-me{
     width: 100%;
     height: 280px;
-    background-image: url(/image/rect.jpg);
-    background-size: no-repeat;
+    border-radius: 1px;
+    background-color: rgb(16, 15, 15);
     display: flex;
     flex-direction: column;
     justify-content: center;
