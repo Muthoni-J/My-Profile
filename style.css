@@ -4,6 +4,7 @@ body {
     background-color: #f6f5f5;
     margin: 0px;
     padding: 0px;
+      
 }
 
 ul {
@@ -56,6 +57,7 @@ nav ul li a {
     font-weight: bold;
     color: #2d2a2d;
 }
+
 
 .text-containerp:nth-child(1) {
     font-family: calibri;
@@ -229,12 +231,15 @@ button:active {
 
 .container{
     display: flex;
+    margin-right: 10%;
+   
     
     
 }
 .box-container {
     position: relative;
     width: 40%;
+    margin-right: 5%;
    
   }
   
