@@ -1,10 +1,13 @@
-@charset "utf-8";
+/* @charset "utf-8"; */
 
 body {
-    background-color: #f6f5f5;
+    background-color: #fbfbfc;
     margin: 0px;
     padding: 0px;
       
+}
+span{
+    color: rgb(154, 43, 43);
 }
 
 ul {
@@ -123,7 +126,7 @@ button:active {
 }
 
 .model {
-    height: 485px;
+    height: 500px;
     position: absolute;
     bottom: 0px;
     left: 70%;
@@ -185,13 +188,68 @@ button:active {
     font-family: calibri;
     background-color: #262525;
 }
+.languages{
+    background-color: black;
+    width: 100%;
+    
+}
+.title h2{
+    color:rgb(242, 222, 222);
+    font-size: 75px;
+    width:1130px;
+    margin:30px auto;
+    text-align:center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    color: rgb(233, 204, 204);
+    
+}
 
+.courses-card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #1c1b1b;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.courses-card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px opx;
+    color: #f9004d;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 25px;
+}
+.web p{
+    color: #fcfc;
+    font-size:16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
 .services {
     height: 600%;
     background-color: #FFFFFF;
     padding: 2% 10% 0px 10%;
 }
-
+.services-text h2{
+    color:rgb(15, 11, 11);
+    font-size: 75px;
+    width:1130px;
+    margin:30px auto;
+    text-align:center;
+}
 .services-text p:nth-child(1) {
     font-family: calibri;
     font-weight: bold;
@@ -337,7 +395,7 @@ footer p:nth-child(1){
 }
 footer p:nth-child(2){
     font-size: 16px;
-    color: #7e7d7d;
+    color: #080707;
     width: 600px;
     text-align: center;
 }
